@@ -1,73 +1,53 @@
-# Welcome to your Lovable project
+🚘 Avto Control Online — Веб-приложение для контроля автопарка
 
-## Project info
+Описание:
 
-**URL**: https://lovable.dev/projects/460233c8-c67a-43b3-ac3e-7b5721d8077b
+Современное веб-приложение, созданное с использованием React, TypeScript, Vite, Tailwind CSS и библиотеки shadcn/ui.
+Проект предназначен для онлайн-контроля автопарка, позволяя пользователям отслеживать автомобили, управлять данными и обеспечивать удобное взаимодействие с интерфейсом.
 
-## How can I edit this code?
+Цель проекта:
 
-There are several ways of editing your application.
+Разработать удобный и масштабируемый интерфейс для управления автопарком, с быстрым доступом к информации и интуитивной навигацией.
 
-**Use Lovable**
+⚙️ Используемые технологии
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/460233c8-c67a-43b3-ac3e-7b5721d8077b) and start prompting.
+- Vite — быстрый dev-сервер и сборка;
+- React (TypeScript) — компонентная архитектура и типизация;
+- Tailwind CSS — современная утилитарная система стилей;
+- shadcn/ui — набор готовых UI-компонентов для React;
+- npm — управление зависимостями и сборкой.
 
-Changes made via Lovable will be committed automatically to this repo.
+🚀 Как запустить проект локально
 
-**Use your preferred IDE**
+Требуется установленный Node.js и npm.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+Клонировать репозиторий:
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+Перейти в директорию проекта:
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
+Установить зависимости:
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Запустить сервер разработки:
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+После запуска приложение будет доступно по адресу http://localhost:5173/
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+💡 Основные возможности
 
-**Use GitHub Codespaces**
+1. Отслеживание состояния и информации об автомобилях;
+2. Удобная визуализация данных в интерфейсе;
+3. Полностью адаптивный дизайн для разных устройств;
+4. Быстрое обновление интерфейса и горячая перезагрузка (Hot Reload);
+5. Чистая и расширяемая архитектура React-приложения.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+🧠 Что демонстрирует проект
 
-## What technologies are used for this project?
+- Владение стеком React + TypeScript + Vite;
+- Создание интерактивного веб-интерфейса с Tailwind CSS и shadcn/ui;
+- Настройку dev-сервера, сборки и локальной разработки;
+- Архитектуру масштабируемого фронтенда.
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/460233c8-c67a-43b3-ac3e-7b5721d8077b) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Автор: Ermek Ahmed - FullStack Developer
